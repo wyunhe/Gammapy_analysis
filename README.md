@@ -4,16 +4,16 @@ This repository provides the code and notebooks used for my Master's thesis work
 
 ## Contents
 
-### **Pulsar Data Processing**  
-- **Addphase.ipynb** – Adds pulsar phase information to DL3 FITS files by matching event IDs from melibea ROOT files  
-- **Data_reduction.ipynb** – Performs data reduction for pulsar DL3 data
+1. Pulsar Data Processing
+- `Addphase.ipynb` – Adds pulsar phase information to DL3 FITS files by matching event IDs from melibea ROOT files  
+- `Data_reduction.ipynb` – Performs data reduction for pulsar DL3 data
 
-### **Flux Point Estimation**  
+2. Flux Point Estimation
 **MCMC technique** with **Tikhonov Regularization** for flux point estimation in Gammapy  
-  - **Implementation**: `mcmc_reg.py`  
-  - **Example use**: `Example_flux_estimation_mcmc_reg.ipynb`  
-  - **Method details**: `Details_and_performance.ipynb`  
-  - **Find optimal regularization depth**: `find_opt.py` helps to determine the optimal regularization depth  
+  - Implementation: `mcmc_reg.py`  
+  - Example use: `Example_flux_estimation_mcmc_reg.ipynb`  
+  - Method details: `Details_and_performance.ipynb`  
+  - `find_opt.py` : helps to determine the optimal regularization depth  
 
 ## **Flux Point Estimation: Stepped Power Law Model + MCMC Sampling with Tikhonov Regularization**  
 
