@@ -16,13 +16,12 @@ This repository provides the code and notebooks used for my Master's thesis work
 &nbsp;
 
 ## Flux Point Estimation: Stepped Power Law Model + MCMC Sampling with Tikhonov Regularization
-&nbsp;
 
 - It is based on the stepped power law model, proposed to address two main **issues** in Gammapy's standard `FluxPointEstimator`:  &nbsp;
   
-  a) Its dependence on a predefined reference spectrum, which may introduce unwanted correlations.  
+  a) Its dependence on a predefined reference spectrum, which may introduce unwanted correlations.
+  
   b) Its operation in the reconstructed energy space, rather than the true energy space, which can lead to
 unreliable results on the edge of the underlying spectrum
 
-&nbsp;
 - Directly fitting the model parameters resulted in large uncertainties and correlations between adjacent energy bins, due to the ill-posed nature of the problem. Therefore, the **Tikhonov regularization term** was introduced to obtain reliable results
