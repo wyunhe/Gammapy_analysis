@@ -9,7 +9,7 @@ This repository provides the code and notebooks used for my Master's thesis work
     - `Data_reduction.ipynb` – Performs data reduction for pulsar DL3 data
 
 2. Flux Point Estimation: **MCMC technique with Tikhonov Regularization** for flux point estimation in Gammapy  
-    - Implementation: `mcmc_reg.py`  (Built on an existing script from the [Gammapy Recipes](https://gammapy.github.io/gammapy-recipes/_build/html/notebooks/mcmc-sampling-emcee/mcmc_sampling.html))
+    - Implementation: `mcmc_reg.py`  (Built on an existing script from the [Gammapy Recipes](https://gammapy.github.io/gammapy-recipes/_build/html/notebooks/mcmc-sampling-emcee/mcmc_sampling.html) on MCMC sampling)
     - Example use: `Example_flux_estimation_mcmc_reg.ipynb`  
     - Method details: `Details_and_performance.ipynb`  
     - `find_opt.py` : helps to determine the optimal regularization depth  
