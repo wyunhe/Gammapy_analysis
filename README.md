@@ -25,3 +25,6 @@ This repository provides the code and notebooks used for my Master's thesis work
 unreliable results on the edge of the underlying spectrum
 
 - Directly fitting the model parameters resulted in large uncertainties and correlations between adjacent energy bins, due to the **ill-posed** nature of the problem. Therefore, the **Tikhonov regularization term** was introduced to obtain reliable results
+
+
+![](./result_comparison.png)
